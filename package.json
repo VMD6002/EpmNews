@@ -1,0 +1,30 @@
+{
+  "name": "epm-dev-vite",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "git": "git add . && git commit -m initial && git push -u origin main --force"
+  },
+  "dependencies": {
+    "firebase": "^9.6.6",
+    "jodit-react": "^1.1.24",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^6.2.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.1",
+    "@vitejs/plugin-react": "^1.0.7",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.22",
+    "vite": "^2.9.0"
+  }
+}
