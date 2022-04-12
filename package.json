@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "git": "git add . && git commit -m initial && git push -u origin main --force"
+    "git": "git checkout Editor && git add . && git commit -m initial && git push -u origin Editor --force"
   },
   "dependencies": {
     "firebase": "^9.6.6",
