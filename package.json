@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "git": "git add . && git commit -m initial && git push --force"
+    "git": "git add . && git commit -m initial && git push -u main --force"
   },
   "dependencies": {
     "@next/eslint-plugin-next": "^12.1.4",
